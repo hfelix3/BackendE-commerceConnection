@@ -4,10 +4,11 @@ const routes = require('./routes');
 const sequelize = require ('../config/connection');
 
 // TODO: import models
-const category = 
+const { ?,?,? } = require('BackendE-commerceConnection/models');
 
 // initialize application
 const app = express();
+
 const PORT = process.env.PORT || 3001;
 
 // middleware
