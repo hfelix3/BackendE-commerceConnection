@@ -3,8 +3,6 @@ const routes = require('./routes');
 //TODO: import sequelize connection
 const sequelize = require ('../config/connection');
 
-// TODO: import models
-const { ?,?,? } = require('BackendE-commerceConnection/models');
 
 // initialize application
 const app = express();
