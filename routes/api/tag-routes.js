@@ -51,13 +51,13 @@ router.get('/:id', async (req, res) => {
 
 router.post('/', async (req, res) => {
   // create a new tag
-  const productData = await user.create(req.body);
+  const productData = await Tag.create(req.body);
     return res.json(productData);
 });
 
 router.put('/:id', async (req, res) => {
   // update a tag's name by its `id` value
-  const categoryData = await user.update(
+  const categoryData = await Tag.update(
     {
       name: req.body.name,
     },
@@ -73,7 +73,7 @@ router.put('/:id', async (req, res) => {
 
 router.delete('/:id', async (req, res) => {
   // delete on tag by its `id` value
-  const categoryData = await user.destroy({
+  const categoryData = await Tag.destroy({
     where: {
       id: req.params.id,
     },
