@@ -43,9 +43,9 @@ SO THAT my company can compete with other e-commerce companies
 To install and test, copy and paste the following into terminal:
 
 ```Bash
-git clone git@github.com:hfelix3/PortfolioH.git
+git clone git@github.com:hfelix3/BackendE-commerceConnection.git
 
-cd PortfolioH
+cd BackendE-commerceConnection
 
 npm install 
 
@@ -56,7 +56,7 @@ npm start
 In your browser, navigate to http://localhost:3001/
 
 ## Usage
-Open the application here: https://github.com/hfelix3/PortfolioH
+Open the application here: https://github.com/hfelix3/BackendE-commerceConnection
 
 Log in or create a new account.
 
